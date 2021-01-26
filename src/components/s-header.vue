@@ -7,19 +7,21 @@
   </van-nav-bar>
 </template>
 <script>
+import { useRouter } from 'vue-router'
 export default {
   props: {
     title: {
       type: String,
-      default: 'NICE模型'
+      default: ''
     }
   },
-  data() {
-    return {}
-  },
-  methods: {
-    onClickLeft() {
-      this.$router.go(-1)
+  setup(){
+    const router = useRouter()
+    const onClickLeft = () => {
+      router.go(-1)
+    }
+    return {
+      onClickLeft
     }
   }
 }

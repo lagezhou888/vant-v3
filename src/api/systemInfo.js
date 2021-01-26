@@ -1,12 +1,9 @@
-import request from '/@/utils/request'
+// import request from '/@/utils/request'
+import axios from '../utils/axios'
 
-let systemInfo= {};
-systemInfo.login = function(data) {
-    return request({
-        url: '/api/fin-services/v1/system-info/login/',
-        data,
-        method: 'post'
-    })
+export function login(params) {
+    return axios.get('/api/userController/login', params);
 }
-
-export default systemInfo
+export function register(params) {
+    return axios.post('/api/userController/register', params);
+}

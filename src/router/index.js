@@ -1,6 +1,7 @@
 // src/router/index.js
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '/@/views/home.vue'
+import Login from '/@/views/login.vue'
 
 // createRouter 创建路由实例
 const router = createRouter({
@@ -9,6 +10,10 @@ const router = createRouter({
         {
             path: '/',
             component: Home
+        },
+        {
+            path: '/login',
+            component: Login
         }
     ]
 })

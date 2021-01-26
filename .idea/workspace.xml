@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d1d56af-58ef-4b50-a3ef-b9110ccb5433" name="Default Changelist" comment="" />
+    <list default="true" id="0d1d56af-58ef-4b50-a3ef-b9110ccb5433" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/login-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/VueImageVerify.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/systemInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/systemInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/s-header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/s-header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +41,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nXb5FClHnowEJscosqmPemAlB1" />
   <component name="ProjectViewState">
@@ -24,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img" />
+    <property name="last_opened_file_path" value="F:/PEP-online/web" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -37,10 +71,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\chineseGongfu\vant-v3\src\utils" />
       <recent name="E:\chineseGongfu\vant-v3\src\assets\img" />
       <recent name="E:\chineseGongfu\vant-v3\src\components" />
+      <recent name="E:\chineseGongfu\vant-v3\src\views" />
       <recent name="E:\chineseGongfu\vant-v3\src\plugins" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index" type="JavascriptDebugType" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,17 +92,33 @@
       <option name="presentableId" value="Default" />
       <updated>1611539197237</updated>
       <workItem from="1611539198296" duration="22125000" />
+      <workItem from="1611619736122" duration="21237000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1611560441299">
+    <state x="414" y="174" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611619808537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611560441299" />
+    <state x="414" y="174" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611619808537" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1611644592412">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611644592412" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1611540065441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
